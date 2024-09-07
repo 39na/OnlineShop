@@ -8,13 +8,3 @@ https://github.com/user-attachments/assets/2e388daa-deb8-4822-be24-ffaaf37e0ba6
 https://github.com/user-attachments/assets/0f61df51-e6f6-4a76-8b97-39c12e23fec2
 
 ![ad4](https://github.com/user-attachments/assets/e4100286-6149-4bc1-8b98-f0bbe4f90389)
-
-# Usage
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
-
-```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
-```
