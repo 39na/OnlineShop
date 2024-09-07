@@ -1,0 +1,570 @@
+@charset "UTF-8";
+
+/* index */
+.index{
+	background-image: url(../images/top.jpg);
+	background-color: rgba(255, 255, 255, 0.7);
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}	
+
+.index .guide {
+	padding: 30px;
+}
+
+.index .guide .ul .li {
+	color: crimson;
+}
+
+.index .sub {
+	font-family: 'Monotype Corsiva', fantasy;
+	font-size: 50px;
+}
+
+.index .link {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 60px;
+}
+
+.index .link a {
+	position: relative;
+	width: 300px;
+	height: 60px;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+    background-color:black;
+	color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.index .link a:active {
+	color:  rgb(255, 128, 64);
+	text-decoration: underline;
+}
+
+/*＜-- 共通設定 --＞*/
+.login {
+	font-family: 'Monotype Corsiva', fantasy;
+	text-align: center;
+	font-size: 20px;
+	background-image: url(../images/sweets.jpg);
+	background-color: rgba(255, 255, 255, 0.7);
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}	
+
+.index .hero,
+.login .hero {
+	font-family: 'Monotype Corsiva', fantasy;
+	font-size: 100px;
+}
+
+/*<-- login.jsp -->*/
+.login .button {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #FFF;
+	background: black;/*色*/
+	border: solid 1px black;/*線色*/
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	width: 150px;
+	padding: 15px;
+	font-size: 18px;
+	transition: .6s;
+}
+
+.login .button:hover {
+  cursor:pointer;
+  color: white;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+}
+
+.login .attention {
+	font-family: sans-serife;
+}
+
+.login .border,
+hr {
+	border: dashed 1px grey;	
+}
+
+.login .tag {
+	font-family: sans-serife;
+}
+
+.login .input {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.login .txt {
+	width: 40%;
+	line-height: 2;
+	padding: 10px;
+	margin: 10px;
+	font-size: 18px;
+	border: none;
+}
+
+/* menu, orderHistory, accountInfo, cartContents, orderCheck, orderOK, admin, updateGoods */
+.menu, 
+.orderHistory,
+.accountInfo,
+.cartContents,
+.orderCheck,
+.orderOK
+ {
+	width: 100%;
+	margin: 0;
+	padding: 30px;
+	color: white;
+  	box-sizing: border-box;
+	background-image: url(../images/main.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+ 	background-size: cover;
+  	background-color: (192 205 207);
+}
+
+.admin,
+.updateGoods
+{
+	background-image: url(../images/admin.jpg);
+	background-color: rgba(255, 255, 255, 0.7);
+	background-blend-mode: lighten;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}	
+
+.newAccount,
+.newAccountOK
+ {
+	width: 100%;
+	margin: 0;
+	padding: 30px;
+	color: white;
+  	box-sizing: border-box;
+  	background-image: url(../images/sweets.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: (192 205 207);
+}
+
+.menu header
+.orderHistory header,
+.accountInfo header,
+.cartContents header,
+.orderCheck header,
+.orderOK header,
+.newAccount header,
+.newAccountOK
+{
+	width: 100%;
+	color: white;
+}
+
+.admin header,
+.updateGoods header
+{
+	width: 100%;
+	color: black;
+}
+
+
+.menu .container,
+.orderHistory .container,
+.accountInfo .container,
+.cartContents .container,
+.orderCheck .container,
+.orderOK .container,
+.newAccount .container,
+.newAccountOK .container,
+.admin .container,
+.updateGoods .container
+{
+	display: flex;
+	justify-content: space-between;
+	line-height: 8px;
+}
+
+.menu h1,
+.orderHistory h1,
+.accountInfo h1,
+.cartContents h1,
+.orderCheck h1,
+.orderOK h1,
+.newAccount h1,
+.newAccountOK h1,
+.admin h1, 
+.updateGoods h1
+{
+	font-family: 'Monotype Corsiva', fantasy;
+	color: black;
+	font-size: 50px;
+}
+
+.menu h5 {
+	display: inline-block;
+}
+
+.menu  main
+.orderHistory main,
+.accountInfo main,
+.cartContents main,
+.orderCheck main,
+.orderOK main,
+.newAccount main,
+.newAccountOK main,
+.admin main,
+.updateGoods main
+{
+	padding: 20px;
+}
+
+.menu a,
+.orderHistory a,
+.accountInfo a,
+.cartContents a,
+.orderCheck a,
+.orderOK a,
+.newAccount a,
+.newAccountOK a,
+.admin a,
+.updateGoods a
+{
+	margin: 20px 10px;
+	padding: 5px 10px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background: black;
+	opacity: 0.6;
+	transition: .6s;
+	border-radius: 4px;
+}
+	
+.menu a:hover,
+.orderHistory a:hover,
+.accountInfo a:hover,
+.cartContents a:hover,
+.orderCheck a:hover,
+.orderOK a:hover,
+.newAccount a:hover,
+.newAccountOK a:hover,
+.admin a:hover,
+.updateGoods a:hover
+{
+	cursor:pointer;
+  	color: white;
+  	background-color: cadetblue;
+}
+	
+.orderHistory .orderList,
+.accountInfo .list,
+.cartContents .list,
+.orderCheck .list,
+.newAccount .list,
+.admin .list,
+.updateGoods .list
+{
+	margin: 20px 10px;
+	padding: 5px 20px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background: black;
+	opacity: 0.6;
+	border-radius: 8px;
+}
+
+.updateGoods input[type="text"]{
+	width: 300px;
+}
+.updateGoods textarea{
+	width: 300px;
+	height: 80px;
+}
+.updateGoods input[type="number"]{
+	width: 300px;
+}
+.admin input[tyep="submit"]{
+	display: block;
+}
+
+.orderHistory table,
+.cartContents table,
+.orderCheck table
+{
+	text-align: center;
+}
+.orderHistory .tb_1,
+.orderCheck .tb_1{
+	width: 10%;
+}
+.orderHistory .tb_2,
+.orderCheck .tb_2
+{
+	width: 20%;
+}
+.orderHistory .tb_3,
+.orderCheck .tb_3{
+	width: 20%;
+}
+.orderHistory .tb_4,
+.orderCheck .tb_4{
+	width: 10%;
+}
+.orderHistory .tb_5,
+.cartContents .tb_5
+{
+	width: 10%;
+}
+
+.cartContents .tb_6{
+	width: 15%;
+}
+
+.accountInfo .chenge_submit,
+.cartContents .chenge_submit,
+.orderCheck .chenge_submit,
+.newAccount .chenge_submit,
+.admin .chenge_submit,
+.updateGoods .chenge_submit
+{
+	display: inline-block;
+	border: none;
+	padding: 5px 15px;
+	background: gray; 
+	border-radius: 4px; 
+	color: white;  
+	font-size: 16px; 
+	font-weight: bold;
+	transition: .6s;
+}
+.accountInfo .chenge_submit:hover,
+.cartContents .chenge_submit:hover,
+.orderCheck .chenge_submit:hover,
+.newAccount .chenge_submit:hover,
+.admin .chenge_submit:hover,
+.updateGoods .chenge_submit:hover
+{
+	cursor:pointer;
+	color: white;
+  	background-color: cadetblue;
+}
+
+/* セレクトタグ */
+.admin .selectdiv {
+	position: relative;
+	float: left;
+	min-width: 250px;
+}
+.admin select::-ms-expand {
+	display: none;
+}
+.selectdiv:after {
+/*選択ボタン*/
+  content: '<>';
+  font: 17px "Consolas", monospace;
+  color: gray;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+/* 中央の線*/
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid gray;
+  position: absolute;
+  pointer-events: none;
+}
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+/*文字・背景*/
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.75;
+  color: black;
+  background-color: rgb(213, 230, 230);
+  background-image: none;
+  border: 2px solid gray;
+  border-radius: 4px;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+/* top */
+.top {
+	width: 100%;
+	margin: 0;
+	background-image: url(../images/素材.jpg);
+	background-repeat: repeat;
+	background-color: rgb(244, 219, 219);
+	background-size: 100%;
+	position:relative;	
+}
+
+.top .logo {
+	font-family: 'Monotype Corsiva', fantasy;
+	padding-left: 15px;
+	font-size: 50px;
+}
+
+.top .container {
+	font-family: 'Monotype Corsiva', fantasy;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.top .button {
+	margin: 10px 10px 0px 10px;
+	position: relative;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0.25em 0.5em;
+  	text-decoration: none;
+  	color: rgb(255, 255, 255);
+  	background: black;
+  	transition: .4s;
+  	opacity: 0.5;
+  	border-radius: 4px;
+  	transition: .6s;
+}
+
+.top .button:hover {
+	cursor:pointer;
+  color: white;
+  background-color: cadetblue;
+}
+
+.cartContents .order_num,
+.top .order_num {
+	background-color: beige;
+}
+
+.top .hero {
+	margin: 0;
+    padding: 137px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    background-image: url(../images/muffin.jpg);
+}
+
+.top .item_bgcolor {
+	padding: 2px 0px 2px 0px;
+}
+
+.top .itemtable {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.top .item_border {
+    margin: auto;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    background-color: white;
+    width: 330px;
+    height: 370px;
+}
+.item_border:before, .item_border:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.item_border:before {
+	left: 10px;
+}
+.item_border:after {
+	right: 10px;
+}
+.item_border p {
+    margin: 0; 
+    padding: 0;
+}
+
+.top img {
+	width: 330px;
+	height: 200px;
+}
+
+.top .font_strong {
+	font-weight:  bold;
+}
+
+.top .font_small {
+	font-size: small;
+	text-align: left;
+}
+
+/* ラジオボタン */
+.radio-group input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+.radio-group input[type="radio"]:checked {
+  background-color: rgb(255, 128, 64);
+}
+.radio-group label:hover {
+  color: rgb(255, 128, 64);
+}
+
+/*
+jspのヘッドに
+<head>
+<link rel="stylesheet" href="././css/style.css">
+</head>
+*/
